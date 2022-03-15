@@ -1,0 +1,113 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 1000px;
+}
+
+.banner h1 {
+  font-size: 80px;
+}
+
+.box {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: -50px;
+}
+
+.btn-custom {
+  background-color: none;
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1.5em;
+  border-radius: 20px;
+  border: 3px solid rgb(80, 73, 189);
+  transition: 1s ease;
+}
+
+.btn-custom-2 {
+  border: none;
+  background-color: #bb2d3b;
+  padding: 5px 20px;
+  color: white;
+  outline: none;
+  border: 1px solid #bb2d3b;
+  transition: 1s ease;
+  border-radius: 5px;
+}
+
+.btn-custom:hover {
+  background: rgb(80, 73, 189);
+  color: white;
+  transition: 1s ease;
+}
+
+.btn-custom-2:hover {
+  background: white;
+  border: 1px solid #bb2d3b;
+  color: black;
+  transition: 1s ease;
+}
+
+.content {
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.about {
+  padding: 50px;
+  background-color: #bb2d3b;
+  color: white;
+}
+
+.contact {
+  padding: 50px;
+}
+
+.contact form {
+  padding: 20px;
+}
+
+.overview .carousel .carousel-item img {
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  border-bottom: 2px solid orange;
+  color: white;
+}
+
+footer .col-md-4 {
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 576px) {
+  .box .col-md-4 {
+    padding: 20px 0;
+  }
+
+  .content .col-md-3 {
+    padding: 20px 0;
+  }
+}
+
+.album img {
+  object-fit: cover;
+}
